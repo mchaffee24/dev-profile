@@ -50,8 +50,8 @@ Links:
 
 ## Validation Links
 
-- Profile Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fdev-profile%2F
-- Profile WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/dev-profile/
+- Profile Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fmchaffee24%2F
+- Profile WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/mchaffee24/
 - Spend Signal Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Ffinance-tracker%2F
 - Spend Signal WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/finance-tracker/
 
