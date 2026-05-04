@@ -1,58 +1,59 @@
-# dev-profile
-# Mitchell Chaffee – Dev Profile
+# Mitchell Chaffee Dev Profile
 
-## 📅 Date
-April 2026
+> A clean portfolio landing page that features my final front-end project and source links.
 
----
+## Overview
 
-## 📌 Overview
-This Dev Profile site serves as a central hub for my web development projects. It showcases my work, provides direct access to live applications, and links to source code repositories.
+This repository powers my GitHub Pages developer profile. It gives visitors one clear place to find my featured project, live app, source repository, validation links, and GitHub profile.
 
----
+## Featured Project
 
-## 🎯 Purpose
-The purpose of this project is to create a clean, accessible portfolio page that highlights my development work and meets modern web standards using semantic HTML, Bootstrap, and custom CSS.
+### Spend Signal
 
----
+Spend Signal is a browser-based budget and spending analyzer. Users can enter their account balance, income schedule, category budget percentages, and personal transactions, then review charts, warning messages, and a cash runway forecast.
 
-## 🧩 Featured Project
+Links:
 
-### 🎮 Memory Match Game
-A single-page web game where users flip cards to find matching pairs. The game tracks attempts and matches, includes adjustable settings, and stores user data using Web Storage.
+- Live app: https://mchaffee24.github.io/adventure-board/
+- Source repository: https://github.com/mchaffee24/adventure-board
+- GitHub profile: https://github.com/mchaffee24
 
-#### 🔗 Links
-- **Play Game:** https://mchaffee24.github.io/game/
-- **Source Code:** https://github.com/mchaffee24/game
+## Previous Coursework
 
----
+- Memory Match live app: https://mchaffee24.github.io/game/
+- Memory Match source repository: https://github.com/mchaffee24/game
 
-## 🛠️ Technologies Used
-- HTML5 (semantic structure)
-- CSS3 (custom styling + variables)
-- Bootstrap 5 (layout and components)
-- JavaScript (ES Modules)
-- Web Storage API (localStorage)
-- Git & GitHub (version control and deployment)
+## Technologies
 
----
+- HTML5
+- CSS3
+- Bootstrap 5
+- Bootstrap Icons
+- JavaScript module
+- GitHub Pages
 
-## 📸 Screenshot
-![Memory Match Game](images/game-thumb.jpg)
+## Profile Page Structure
 
----
+```text
+.
+├── README.md
+├── images
+│   ├── game.jpg
+│   └── spend-signal-preview.svg
+├── index.html
+├── scripts
+│   └── main.js
+└── styles
+    └── main.css
+```
 
-## 💻 Code Example
+## Validation Links
 
-Below is an example of how validation links are dynamically generated based on the current deployed page:
+- Profile Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fdev-profile%2F
+- Profile WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/dev-profile/
+- Spend Signal Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fadventure-board%2F
+- Spend Signal WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/adventure-board/
 
-```javascript
-function setupValidationLinks() {
-  const currentUrl = window.location.href;
+## Final Submission Notes
 
-  const htmlValidatorLink = document.getElementById("html-validator");
-  const waveCheckerLink = document.getElementById("wave-checker");
-
-  htmlValidatorLink.href = `https://validator.w3.org/nu/?doc=${encodeURIComponent(currentUrl)}`;
-  waveCheckerLink.href = `https://wave.webaim.org/report#/${encodeURIComponent(currentUrl)}`;
-}
+The featured project section links to the final project repository and the deployed GitHub Pages app. The GCP external IP link should be added to the Spend Signal repository About section after the VM deployment is complete.

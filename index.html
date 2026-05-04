@@ -4,75 +4,155 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mitchell Chaffee | Dev Profile</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Mitchell Chaffee's developer profile featuring Spend Signal, a budget and spending analyzer front-end project.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg site-nav" aria-label="Primary navigation">
     <div class="container">
       <a class="navbar-brand" href="#">Mitchell Chaffee</a>
+      <div class="nav-links">
+        <a href="https://github.com/mchaffee24" target="_blank" rel="noopener">GitHub</a>
+        <a href="#featured-project">Featured Project</a>
+      </div>
     </div>
   </nav>
 
-  <header class="py-5 hero-section">
-    <div class="container text-center">
-      <h1 class="display-5 fw-bold">Mitchell Chaffee</h1>
-      <p class="lead mb-2">CIS Student | Web Development Projects</p>
-      <p class="header-text">
-        This page highlights my web development work and links to my live projects and source code.
-      </p>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="intro-copy">
+        <p class="eyebrow">Developer Profile</p>
+        <h1>Mitchell Chaffee</h1>
+        <p class="lead">
+          Computer Information Systems student building practical front-end projects with clear structure, readable code, and usable interfaces.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="btn btn-light" href="https://mchaffee24.github.io/adventure-board/" target="_blank" rel="noopener">
+            <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+            Open Spend Signal
+          </a>
+          <a class="btn btn-outline-light" href="https://github.com/mchaffee24/adventure-board" target="_blank" rel="noopener">
+            <i class="bi bi-github" aria-hidden="true"></i>
+            View Repository
+          </a>
+        </div>
+      </div>
+
+      <aside class="header-panel" aria-label="Featured project summary">
+        <span>Final Project</span>
+        <strong>Spend Signal</strong>
+        <p>Budget tracking, editable category targets, spending alerts, charts, and cash runway forecasting.</p>
+      </aside>
     </div>
   </header>
 
-  <main class="container pb-5">
-    <section class="mb-5">
-      <h2 class="mb-3">About Me</h2>
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <p class="mb-0">
-            I am a Computer Information Systems student interested in web development, technology, and building clean, user-friendly projects. This portfolio page showcases my coursework and deployed apps.
-          </p>
-        </div>
+  <main id="main-content" class="container page-content">
+    <section id="featured-project" class="featured-section" aria-labelledby="featured-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Project</p>
+        <h2 id="featured-heading">Spend Signal</h2>
+        <p>
+          A spending analyzer that lets users enter their own income, balance, budget percentages, and transactions instead of relying on preset personal data.
+        </p>
       </div>
-    </section>
 
-    <section>
-      <h2 class="mb-3">Projects</h2>
-
-      <div class="card shadow-sm project-card">
-        <img src="images/game.jpg" class="card-img-top" alt="Screenshot of the Memory Match Game project">
-        <div class="card-body">
-          <h3 class="card-title h4">Memory Match Game</h3>
-          <p class="card-text">
-            A single-page memory matching game built with HTML, Bootstrap, custom CSS, JavaScript modules, and localStorage.
+      <article class="project-card">
+        <div class="project-media">
+          <img src="images/spend-signal-preview.svg" alt="Spend Signal dashboard preview with budget cards, alerts, and category charts">
+        </div>
+        <div class="project-details">
+          <h3>Budget decisions with clearer signals</h3>
+          <p>
+            Spend Signal focuses on the parts of personal budgeting that are easiest to miss: category drift, weekly changes, cash runway, and whether current spending lines up with income.
           </p>
 
-          <div class="d-flex flex-wrap gap-2">
-            <a href="https://mchaffee24.github.io/game/" target="_blank" class="btn btn-success">Play Game</a>
-            <a href="https://github.com/mchaffee24/game" target="_blank" class="btn btn-dark">Source Code</a>
+          <ul class="feature-list">
+            <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Flexible income schedules: weekly, bi-weekly, monthly, or yearly.</li>
+            <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Category budgets can use recommendations or custom percentages.</li>
+            <li><i class="bi bi-check2-circle" aria-hidden="true"></i> User-entered transactions drive charts, warnings, filters, and forecasts.</li>
+          </ul>
+
+          <div class="project-actions" aria-label="Spend Signal links">
+            <a class="btn btn-success" href="https://mchaffee24.github.io/adventure-board/" target="_blank" rel="noopener">
+              <i class="bi bi-play-circle" aria-hidden="true"></i>
+              Live App
+            </a>
+            <a class="btn btn-dark" href="https://github.com/mchaffee24/adventure-board" target="_blank" rel="noopener">
+              <i class="bi bi-github" aria-hidden="true"></i>
+              Source Code
+            </a>
           </div>
         </div>
+      </article>
+    </section>
+
+    <section class="info-grid" aria-label="Profile details">
+      <article class="info-card">
+        <div class="card-icon">
+          <i class="bi bi-person-workspace" aria-hidden="true"></i>
+        </div>
+        <h2>About Me</h2>
+        <p>
+          I am a Computer Information Systems student interested in web development, problem solving, and building tools that make everyday decisions easier.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <div class="card-icon">
+          <i class="bi bi-card-checklist" aria-hidden="true"></i>
+        </div>
+        <h2>Submission Links</h2>
+        <ul class="link-list">
+          <li><a href="https://github.com/mchaffee24" target="_blank" rel="noopener">GitHub Profile</a></li>
+          <li><a href="https://github.com/mchaffee24/adventure-board" target="_blank" rel="noopener">Final Project Repository</a></li>
+          <li><a href="https://mchaffee24.github.io/adventure-board/" target="_blank" rel="noopener">Final Project GitHub Pages App</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="secondary-section" aria-labelledby="secondary-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Previous Coursework</p>
+        <h2 id="secondary-heading">Memory Match Game</h2>
+        <p>
+          An earlier browser game project that helped build the foundation for the final app: layout, interaction, state, and deployment.
+        </p>
       </div>
+
+      <article class="mini-project">
+        <img src="images/game.jpg" alt="Memory Match Game interface with score, cards, and settings">
+        <div>
+          <h3>Memory Match Game</h3>
+          <p>A single-page matching game built with front-end fundamentals and browser storage.</p>
+          <div class="project-actions">
+            <a class="btn btn-outline-success" href="https://mchaffee24.github.io/game/" target="_blank" rel="noopener">
+              <i class="bi bi-play-circle" aria-hidden="true"></i>
+              Play Game
+            </a>
+            <a class="btn btn-outline-dark" href="https://github.com/mchaffee24/game" target="_blank" rel="noopener">
+              <i class="bi bi-github" aria-hidden="true"></i>
+              Source Code
+            </a>
+          </div>
+        </div>
+      </article>
     </section>
   </main>
 
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p class="mb-2">Mitchell Chaffee Dev Profile</p>
-      <p class="mb-0">
-        <a href="https://github.com/mchaffee24" target="_blank" class="text-white">GitHub Profile</a>
-        |
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fdev-profile%2F" target="_blank" class="text-white">HTML Validator</a>
-        |
-        <a href="https://wave.webaim.org/report#/https://mchaffee24.github.io/dev-profile/" target="_blank" class="text-white">WAVE</a>
-      </p>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year">2026</span> Mitchell Chaffee</p>
+      <div class="footer-links" aria-label="Validation links">
+        <a id="profile-validator" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fdev-profile%2F" target="_blank" rel="noopener">Profile Validator</a>
+        <a id="profile-wave" href="https://wave.webaim.org/report#/https://mchaffee24.github.io/dev-profile/" target="_blank" rel="noopener">Profile WAVE</a>
+      </div>
     </div>
   </footer>
 
+  <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
