@@ -15,7 +15,8 @@ Spend Signal is a browser-based budget and spending analyzer. Users can enter th
 Links:
 
 - Live app: https://mchaffee24.github.io/finance-tracker/
-- Source repository: https://github.com/mchaffee24/adventure-board
+- Source repository: https://github.com/mchaffee24/finance-tracker
+- GCP deployment: http://34.41.255.130/
 - GitHub profile: https://github.com/mchaffee24
 
 ## Previous Coursework
@@ -56,4 +57,4 @@ Links:
 
 ## Final Submission Notes
 
-The featured project section links to the final project repository and the deployed GitHub Pages app. The GCP external IP link should be added to the Spend Signal repository About section after the VM deployment is complete.
+The featured project section links to the final project repository, the deployed GitHub Pages app, and the GCP external IP deployment.
