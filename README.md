@@ -14,7 +14,7 @@ Spend Signal is a browser-based budget and spending analyzer. Users can enter th
 
 Links:
 
-- Live app: https://mchaffee24.github.io/adventure-board/
+- Live app: https://mchaffee24.github.io/finance-tracker/
 - Source repository: https://github.com/mchaffee24/adventure-board
 - GitHub profile: https://github.com/mchaffee24
 
@@ -51,8 +51,8 @@ Links:
 
 - Profile Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fdev-profile%2F
 - Profile WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/dev-profile/
-- Spend Signal Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Fadventure-board%2F
-- Spend Signal WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/adventure-board/
+- Spend Signal Nu Validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Fmchaffee24.github.io%2Ffinance-tracker%2F
+- Spend Signal WAVE report: https://wave.webaim.org/report#/https://mchaffee24.github.io/finance-tracker/
 
 ## Final Submission Notes
 
